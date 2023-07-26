@@ -1,0 +1,163 @@
+---
+sitemap: false
+---
+
+
+/*
+  Common Variables
+
+  Feel free to change!
+*/
+
+/* Fonts */
+$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$heading-font: sans-serif;
+$regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
+
+
+/*
+  Color
+
+  Make sure to leave color-scheme in `_config.yml` file empty for granular control
+*/
+
+$text-color: #454545;
+$heading-color: #404040;
+$link-color: #841212;
+
+@import "ed";
+@import "syntax";
+@import "CETEIcean.css";
+
+/* In this lines I am defining 3 class of <div> element */
+    /* The first 'multiling' is the container for the two columns */
+    
+    .multiling {
+        overflow: hidden;
+    }
+    
+    /*  The second defines divs to the left */
+    
+    .left {
+        float: left;
+        width: 40%;
+    }
+    
+    /* And the third to the right */
+    
+    .right {
+        float: right;
+        width: 40%;
+    }
+    
+    tei-reg 
+{
+ font-weight: bold;
+/*font-style: italic;*/
+color: #279711;
+}
+    
+    tei-sic {
+  color: brown
+}
+
+ tei-corr {
+  font-weight: bold;
+  color: brown
+}
+
+tei-name {
+  font-weight: bold;
+}
+
+tei-note {
+  display: block;
+  font-size: 85%;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+tei-ref {
+  color: #5f0000;
+  /*text-decoration: underline;*/
+    vertical-align:super;            /*superindice*/ 
+    font-size:8pt; 
+}
+
+tei-graphic {
+display: block;
+margin-top: 2em;
+}
+
+tei-div > tei-head {
+  font-size: 180%;
+  text-indent: 0em;
+   margin-bottom: 8px;
+}
+
+/*tei-div {
+  text-indent: 30px; /\*Te odioooooooooooooooooooooo*\/
+  }*/
+
+
+tei-lb {
+  display:none;
+  text-align: justify;
+}
+
+tei-p {
+ text-indent: 15px;
+/*  display: inline;*/
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+tei-foreign {
+font-style: italic;
+}
+
+p {
+ text-indent: 15px;
+/*  display: inline;*/
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+}
+
+.page-title {
+  display:none;
+}
+
+.green {
+ font-weight: bold;
+/*font-style: italic;*/
+color: #279711;
+}
+
+.red {
+  font-weight: bold;
+  color: brown
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0rem;
+  border-radius: 15px;
+}
+
+tei-head {
+  text-align: center;
+}
+
+li {
+  text-indent: 0px;
+   text-align: justify;
+ } 

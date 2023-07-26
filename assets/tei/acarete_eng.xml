@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_simplePrint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My TEI Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information  about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="16"/> 
+         <head>A De<reg>s</reg>cription of Buenos Ayres.</head> <!--we must define how we are going to refer to each segment of the text-->
+         <p>B<reg>e</reg>fore I <reg>s</reg>ay any thing of my Journy
+            <lb/>to <name type="country" ref="http://viaf.org/viaf/159434034">Peru</name>, I will ſet down what I ob-
+            <lb/><reg>s</reg>erv’d remarkable at <name type="place" ref="http://viaf.org/viaf/1331145424662786830473">Buenos Ayres</name> whil<reg>s</reg>t 
+            <lb/>I tarry’d there. The Air is pretty tem-
+            <lb/>perate, much as ’tis in <name type="place">Andalou<reg>s</reg>ia</name>, but 
+            <lb/>not quite <reg>s</reg>o warm, the Rains fall almo<reg>s</reg>t 
+            <lb/>as often in <reg>s</reg>ummer as Winter; and the 
+            <lb/>Rain in <reg>s</reg>ultry weather u<reg>s</reg>ually breeds 
+            <lb/>divers kinds of Toads, which are very 
+            <lb/>common in this Country, but are not 
+            <lb/>venemous. The Town <reg>s</reg>tands upon a 
+            <lb/>ri<reg>s</reg>ing Ground on the fide of the <name type="placeGeog" ref="http://viaf.org/viaf/1146030448635860106/#R%C3%ADo_de_la_Plata_(Estuario)
+               ">River
+            <lb/>de la Plata</name>, a Mu<reg>s</reg>quet <reg>s</reg>hot from the 
+            <lb/>Channel, in an Angle of Land made by 
+            
+     
+            <graphic url="../images/Acarete_English_16.jpg"></graphic>
+         
+            
+            <pb n="17"/>
+            <fw>up the R. de la Plata.:</fw>
+            <lb/>a little Rivulet, call’d <name type="placeGeog">Riochuelo</name>, 
+            <lb/>which falls into the River a quarter of
+            <lb/>a League from the Town;it contains
+            <lb/>400 Hou<reg>s</reg>es, has no enclo<reg>s</reg>ure, neither
+            <lb/>Wall nor Ditch,and nothing to defend
+            <lb/>it but a little Fort of Earth <reg>s</reg>urrounded 
+            <lb/>with a Ditch,which commands the Ri-
+            <lb/>ver, and has Ten Iron Guns, the bigge<reg>s</reg>t
+            <lb/>of which is a Twelve Pounder; there
+            <lb/>the Governor re<reg>s</reg>ides who has but 150 
+            <lb/>Men in Garri<reg>s</reg>on, which are form’d into
+            <lb/>Three Companies Commanded by Three 
+            <lb/>Captains, whom he appoints at will, and 
+            <lb/>indeed he changes them <reg>s</reg>o often, that
+            <lb/>there is hardly a Wealthy Citizen but has 
+            <lb/>been a Captain; the<reg>s</reg>e Companies are not 
+            <lb/>always full, becau<reg>s</reg>e the Souldiers are 
+            <lb/>drawn by the cheapne<reg>s</reg>s of Living in 
+            <lb/>tho<reg>s</reg>e Parts to de<reg>s</reg>ert frequently,not-
+            <lb/>with<reg>s</reg>tanding they endeavour to keep
+            <lb/>them in the Service by a large pay, which 
+            <lb/>is <foreign>per diem</foreign> Four Reals, worth 1 s. 6 d. 
+            <lb/>Engli<reg>s</reg>h, and a Loaf of 3 d. ob. which
+            <lb/>is as much as one Man can eat. But the 
+            <lb/>Governor keeps 1200 tame Hor<reg>s</reg>es in a 
+            <lb/>Plain thereabouts for his ordinary Ser-
+            <lb/>vice, and in cafe of nece<reg>s</reg><reg>s</reg>ity to mount 
+            <lb/>the Inhabitants of the Place, and form 
+            <lb/>a <reg>s</reg>mall Body of Cavalry. Be<reg>s</reg>ides this
+            <lb/>Fort, there is a little Ba<reg>s</reg>tion at the 
+            <lb/>Mouth 
+            <graphic url="../images/Acarete_English_17.jpg"></graphic>
+            
+            
+            <pb n="18"/>
+            <fw>A Voyage to Peru:</fw>
+            <lb/>of the Rivulet wherein they
+            <lb/>keep Guard, there are but Two Iron-
+            <lb/>Guns mounted upon it each carrying a
+            <lb/>Three Pound Ball; this commands the
+            <lb/>place where the Barks come a<reg>s</reg>hore to de-
+            <lb/>liver or take in goods, which are liable
+            <lb/>to be vi<reg>s</reg>ited by the Officers of the Ba-
+            <lb/><reg>s</reg>tion when they lade and unlade. The 
+            <lb/>Hou<reg>s</reg>es of the Town are built of Earth,
+            <lb/>becau<reg>s</reg>e there is but little Stone in all
+            <lb/>tho<reg>s</reg>e Parts up as far as <name type="country" ref="http://viaf.org/viaf/159434034">Peru</name>; they are
+            <lb/>thatch’d with Canes and Straw, have
+            <lb/>no Stories, all the Rooms are of
+            <lb/>a Floor, and are very Spacious; they
+            <lb/>have great Court-yards, and behind 
+            <lb/>their Hou<reg>s</reg>es large Gardens full of 
+            <lb/>Orange-trees,Lemon-trees, Fig-trees, 
+            <lb/>Apple-trees, Pear-trees, and other Fruit-
+            <lb/>trees, with <reg>s</reg>tore of Herbs, Cabbages,
+            <lb/>Onions, Garlick, Lettice, Peas, Beans,
+            <lb/>and e<reg>s</reg>pecially their Melons are excellent,
+            <lb/>the Soil being very fat and good;they
+            <lb/>live very commodiou<reg>s</reg>ly, and exept
+            <lb/>Wine, which is <reg>s</reg>omething dear; they
+            <lb/>have plenty of all forts of Vi<reg>c</reg>tuals, as
+            <lb/>Beef, Veal, Mutton, Veni<reg>s</reg>on, Hares,
+            <lb/>Coneys, Pullets, Ducks, Wild-gee<reg>s</reg>e,
+            <lb/>Partridges, Pidgeons, Turtles, and all
+            <lb/>kind of Wild-fowl; and <reg>s</reg>o cheap, that
+            <lb/>one may buy Partridges for a Penny a 
+            <lb/>piece,
+            <graphic url="../images/Acarete_English_18.jpg"></graphic>
+
+         
+            <pb n="19"/>
+            <fw>up the R. de la Plata.:</fw>
+            <lb/>piece and the re<reg>s</reg>t proportionably.
+            <lb/>There are like wife abundance of O<reg>s</reg>triches
+            <lb/>who herd in Flocks like Cattle, and tho’
+            <lb/>they are good Meat, yet none but the
+            <lb/> Savages eat of them. They make Um-
+            <lb/>brellas of their Feathers, which are very
+            <lb/>commodious in the Sun; their Eggs are
+            <lb/>good, and every body eats of ’em, tho’
+            <lb/>they <reg>s</reg>ay they are of hard Dige<reg>s</reg>tion. I 
+            <lb/><reg>s</reg>aw one thing of the<reg>s</reg>e Creatures very
+            <lb/>remarkable, and that is, while the Hen 
+            <lb/><reg>s</reg>its upon the Eggs, they have the In<reg>s</reg>tinct 
+            <lb/>or Fore<reg>s</reg>ight to provide for their Young; 
+            <lb/><reg>s</reg>o five or <reg>s</reg>ix days before they come out
+            <lb/>of the Shell, they <reg>s</reg>et an Egg in each of 
+            <lb/>the four Corners of the place where they 
+            <lb/><reg>s</reg>it, the<reg>s</reg>e Eggs they break, and when they 
+            <lb/>rot, Worms and Maggots breed in ’em 
+            <lb/>in prodigious numbers, which <reg>s</reg>erve to 
+            <lb/>nouri<reg>s</reg>h the Young O<reg>s</reg>triches from the 
+            <lb/>time they are hatch’d till they are able to
+            <lb/>go farther for their <reg>s</reg>u<reg>s</reg>tenance. The 
+            <lb/>Hou<reg>s</reg>es of the better fort of Inhabitants
+            <lb/>are adorn’d with Hangings, Pi<reg>c</reg>tures, 
+            <lb/>and other Ornaments and decent Movea-
+            <lb/>bles, and all that are tollerably well to 
+            <lb/>pa<reg>s</reg>s are ferv’d in Plate, and have a great
+            <lb/>many Servants, Blacks, <foreign>Moulatos</foreign>,
+            <lb/><foreign>Me<reg>s</reg>tices</foreign>, Indians, <foreign>Cabres</foreign>, or <foreign>Sambos</foreign>, 
+            <lb/>who are all slaves. The Negros come
+            <lb/>from
+            <graphic url="../images/Acarete_English_19.jpg"></graphic>
+
+         
+            <pb n="20"/>
+            <fw>A Voyage to Peru:</fw>
+            <lb/>from <name type="country" ref="https://viaf.org/viaf/151781392/#Papua_New_Guinea">Guinea</name>; the <foreign>Mulatos</foreign> are begotten 
+            <lb/>by a Spaniard upon a Black; the <foreign>Me<reg>s</reg>ti-
+            <lb/>ces</foreign> are born of a Spaniard and an Indian, 
+            <lb/>and the <foreign>Sambos</foreign> of an Indian Man and a 
+            <lb/><foreign>Me<reg>s</reg>tice</foreign>, all di<reg>s</reg>tingui<reg>s</reg>hable by their Co-
+            <lb/>lour and Hair. They employ the<reg>s</reg>e 
+            <lb/>Slaves in their Hou<reg>s</reg>es, or to cultivate 
+            <lb/>their Grounds, for they have large Farms 
+            <lb/><reg>s</reg>tock’d with Grain in abundance, as 
+            <lb/>Wheat, Barley and Millet,or to look 
+            <lb/>after their Hor<reg>s</reg>es and Mules, who feed 
+            <lb/>upon nothing but Gra<reg>s</reg>s all the year
+            <lb/>round, or to kill Wild-Bulls, or in fine 
+            <lb/>to do any kind of Service.All the Wealth 
+            <lb/>of the<reg>s</reg>e Inhabitants con<reg>s</reg>i<reg>s</reg>ts in Cattle, 
+            <lb/>wich multiply <reg>s</reg>o prodigiou<reg>s</reg>ly in this 
+            <lb/>Province, that the Plains are quite co-
+            <lb/>ver’d with ’em, particularly with Bulls, 
+            <lb/>Cows, Sheep, Hor<reg>s</reg>es, Mares, Mules, A<reg>s</reg><reg>s</reg>-
+            <lb/>es, Swine, Deer, and others, in<reg>s</reg>omuch 
+            <lb/>that were it not for a va<reg>s</reg>t number of 
+            <lb/>Dogs, who devour the Calves and other 
+            <lb/>young Bea<reg>s</reg>ts, they would over-run the 
+            <lb/>Country, they make <reg>s</reg>o great profit of 
+            <lb/>the Skins and Hides of the<reg>s</reg>e Annimals,
+            <lb/>that a <reg>s</reg>ingle In<reg>s</reg>tance will be <reg>s</reg>ufficient to 
+            <lb/><reg>s</reg>hew how far it might be improv’d by
+            <lb/>good hands:The 22 Dutch Ships that
+            <lb/>we found at <name type="place" ref="http://viaf.org/viaf/1331145424662786830473">Buenos Ayres</name> were each of them laden with 13 or 14000 Bull-hides
+            <lb/>at
+            <graphic url="../images/Acarete_English_20.jpg"></graphic>
+
+         
+            <pb n="21"/>
+            <fw>up the R. de la Plata.:</fw>
+            <lb/>at lea<reg>s</reg>t, which amount to above 300000 
+            <lb/>Livers, or 33500 l. Sterling, bought by 
+            <lb/>the Dutch at Seven or Eight Reals a 
+            <lb/>piece, that is under an Engli<reg>s</reg>h Crown, and 
+            <lb/><reg>s</reg>old again in Europe for Twenty-five 
+            <lb/>Shillings Engli<reg>s</reg>h at lea<reg>s</reg>t. 
+            <lb/>When I expre<reg>s</reg>s’d 
+            <lb/>my a<reg>s</reg>toni<reg>s</reg>hment at the <reg>s</reg>ight of <reg>s</reg>uch 
+            <lb/>an infinite number of Cattle, they told 
+            <lb/>me of a Stratagem <reg>s</reg>ometimes made u<reg>s</reg>e 
+            <lb/>of, when they apprehend a de<reg>s</reg>cent from 
+            <lb/>any Enemies, that is matter of greater 
+            <lb/>wonder, and ’tis this; they drive <reg>s</reg>uch 
+            <lb/>a Herd of Bulls, Cows, Hor<reg>s</reg>es and other 
+            <lb/>Animals to the Shore-<reg>s</reg>ide, that ’tis utter-
+            <lb/>ly impo<reg>s</reg><reg>s</reg>ible for any number of Men, 
+            <lb/>even tho’ they <reg>s</reg>hould not dread the fu-
+            <lb/>ry of tho<reg>s</reg>e Wild Creatures, to make 
+            <lb/>their way through <reg>s</reg>o great a drove of 
+            <lb/>Bea<reg>s</reg>ts. The Fir<reg>s</reg>t Inhabitants of this
+            <lb/>place, put every one their mark upon 
+            <lb/>tho<reg>s</reg>e they could catch, and turn’d ’em
+            <lb/>into their enclo<reg>s</reg>ures, but they multiply’d 
+            <lb/>fo fa<reg>s</reg>t, that they were forc’d to let ’em 
+            <lb/>loo<reg>s</reg>e, and now they go and kill them 
+            <lb/>according as they want ’em, or have oc-
+            <lb/>ca<reg>s</reg>ion to make up a quantity of Hides 
+            <lb/>for Sale. At pre<reg>s</reg>ent they mark only 
+            <lb/>tho<reg>s</reg>e Hor<reg>s</reg>es and Mules which they catch 
+            <lb/>to tame and breed up for Service. Some 
+            <lb/>Per<reg>s</reg>ons make a great Trade of fending 
+            <lb/>them 
+            <graphic url="../images/Acarete_English_21.jpg"></graphic>
+            
+            <pb n="22"/>
+            <fw>A Voyage to Peru:</fw>
+            <lb/>them to <name type="country" ref="http://viaf.org/viaf/159434034">Peru</name>, where they yield 50 <foreign>Pata-
+            <lb/>gons</foreign>, or 11 l. 13 s. 4 d. Sterling a pair. 
+            <lb/>Mo<reg>s</reg>t of the Dealers in Cattle are very 
+            <lb/>Rich,but of all the Trading People the 
+            <lb/>mo<reg>s</reg>t con<reg>s</reg>iderable are they that Traf-
+            <lb/>fick inEuropean Commodities. Ma-
+            <lb/>ny of whom are reputed worth 2 or 
+            <lb/>300000 Crowns, or 67000 l. Sterling. 
+            <lb/>So that a Merchant worth no more than 
+            <lb/>15 or 20000 Crowns is look’d upon as 
+            <lb/>a mean Retailer; of the<reg>s</reg>e la<reg>s</reg>t there are 
+            <lb/>near 200 Families in the Town, that 
+            <lb/>make 500 Men bearing Arms, be<reg>s</reg>ides 
+            <lb/>their Slaves who are three times that 
+            <lb/>Number, but are not to be reckon’d of 
+            <lb/>any Defence, becau<reg>s</reg>e they are not al-
+            <lb/>low’d to bear Arms: Thus the Spaniards, 
+            <lb/>Portugue<reg>s</reg>e, and their Sons (of whom 
+            <lb/>tho<reg>s</reg>e that are born upon the place are
+            <lb/>term’d <foreign>Criolos</foreign>, to diftingui<reg>s</reg>h them from
+            <lb/>the Natives of <name type="country" ref="https://viaf.org/viaf/159380011/#Catalonia_(Spain)">spain</name>) and <reg>s</reg>ome <foreign>Me<reg>s</reg>tices</foreign> 
+            <lb/>are the Militia, which with the soldiers
+            <lb/>in Garri<reg>ss</reg>on, compo<reg>s</reg>e a Body of above 
+            <lb/>600 Men, as I computed them in <reg>s</reg>everal 
+            <lb/>Mu<reg>s</reg>ters, for they draw out on Hor<reg>s</reg>e
+            <lb/>back Three times a Year near the Town
+            <lb/>on Fe<reg>s</reg>tival Days. 
+            <lb/>I obferv’d there were 
+            <lb/>many Old Men among them that did not
+            <lb/>carry Fire-arms, but only a Sword by
+            <lb/>their fide, a Lance in hand, and a Buck-
+            <lb/>-ler
+            <graphic url="../images/Acarete_English_22.jpg"></graphic>
+
+            
+            <pb n="23"/>
+            <fw>up the R. de la Plata.:</fw>
+            <lb/>ler at their <reg>s</reg>houlder: They are al<reg>s</reg>o mo<reg>s</reg>t 
+            <lb/>of them Marry’d and Ma<reg>s</reg>ters of Fami-
+            <lb/>ies, and con<reg>s</reg>equently have no great 
+            <reg>s</reg>tomach to Fighting. They love their
+            <lb/>Ea<reg>s</reg>e and Plea<reg>s</reg>ure, and are entirely de-
+            <lb/>voted to Venus; I confe<reg>s</reg>s they are in
+            <lb/><reg>s</reg>ome mea<reg>s</reg>ure excu<reg>s</reg>able in this point, 
+            <lb/>for mo<reg>s</reg>t of their Women are extreamly 
+            <lb/>pretty, well <reg>s</reg>haped, and clear skin’d; 
+            <lb/>and withal <reg>s</reg>o faithful to their Husbands,
+            <lb/>that no Temptations can prevail with 
+            <lb/>them to loo<reg>s</reg>en the Sacred Knot: But 
+            <lb/>then if their Husbands tranfgre<reg>s</reg>s, they 
+            <lb/>are often puni<reg>s</reg>h’d with Poi<reg>s</reg>on or Dag-
+            <lb/>ger.The Women are more in Number 
+            <lb/>than the Men. Be<reg>s</reg>ides Spaniards, there are 
+            <lb/>a few French, Hollanders, and <foreign>Genoue<reg>s</reg>e</foreign>, 
+            <lb/>but all go for Spaniards, otherwi<reg>s</reg>e there
+            <lb/>would be no dwelling for them there, 
+            <lb/>e<reg>s</reg>pecially tho<reg>s</reg>e that differ in their Reli-
+            <lb/>gion from the Roman-Catholicks, becau<reg>s</reg>e 
+            <lb/>the Inqui<reg>s</reg>ition is <reg>s</reg>ettled there.</p>
+               
+            <p><lb/>The Bi<reg>s</reg>hop’s Revenue amounts to 
+            <lb/>3000 Patagons, or 700 l. Sterling per 
+            <lb/>Annum. His Dioce<reg>s</reg>s takes in this Town 
+            <lb/>and Santa Fe, with the Farms belonging 
+            <lb/>to both; Eight or Ten Prie<reg>s</reg>ts Officiate 
+            <lb/>in the Cathedral, which is built of Earth 
+            <lb/>as well as the Hou<reg>s</reg>es. The Je<reg>s</reg>uits have 
+            <lb/>a College; the Dominicans, the Recol-
+            <lb/>ects,
+            <graphic url="../images/Acarete_English_23.jpg"></graphic>
+
+            <pb n="24"/>
+            <fw>A Voyage to Peru:</fw>
+            
+            <lb/>lects, and the Religious de la Mercy have,
+            <lb/>each a Convent. There is likewife an
+            <lb/>Ho<reg>s</reg>pital, but there are <reg>s</reg>o few poor Peo-
+            <lb/>ple in the<reg>s</reg>e Parts that 'tis of little u<reg>s</reg>e.</p> 
+            
+            
+            
+            <p><graphic url="../images/Acarete_English_24.jpg"></graphic></p>
+         
+         
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+{{ content }}
+<div id="TEI"></div>
+<br/>
+<br/>
+<div><a href="https://gitlab.com/gabrielcalarco/group-2-project/-/tree/master/assets/tei/{{page.document}}" 
+  target="_new">See the XML-TEI file / Ver el archivo XML-TEI.</a></div>
+
+<script src="{{site.baseurl}}/assets/js/CETEI.js"></script>
+<script>
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("{{site.baseurl}}/assets/tei/{{page.document}}", function(data) {
+    document.getElementById("TEI").appendChild(data)
+  })
+</script>
