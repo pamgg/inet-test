@@ -281,7 +281,7 @@ tbody tr:nth-child(odd) th {
   bottom: 0;
   left: -14rem;
   width: 14rem;
-  visibility: visible;
+  visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 0.875rem; /* 15px*/
