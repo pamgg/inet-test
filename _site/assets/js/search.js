@@ -71,7 +71,7 @@ index.addDoc({
   title: "Inicio",
   author: null,
   layout: "default",
-  content: "\n\n\n\n  \n\n\n    \n \nOur digital publishing project offers the edition of two translations,\nin English and Spanish, from the chapter dedicated to the description of Buenos Aires in the account of the trip made\nby Acarete du Biscay to the Río de la Plata and Peru,\noriginally published in French in 1672.\n\n\n \nNuestro proyecto de publicación digital ofrece la edición de dos traducciones, \nal inglés y al castellano, del capítulo dedicado a la descripción de Buenos Aires en el relato del viaje realizado \npor Acarete du Biscay al Río de la Plata y al Perú virreinal, \npublicada originalmente en francés en 1672.\n\n\n\n\n\n \n\nLa familia Podestá\n\n\n",
+  content: "\n\n\n\n",
   id: 8
 });
 index.addDoc({
