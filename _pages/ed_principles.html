@@ -1,0 +1,113 @@
+---
+layout: default
+title: Editorial principles / Principios editoriales
+permalink: ed_prin
+---
+<div>
+	<ul>
+		<li><a href="/group-2-project/_pages/about">Go to About page / Ir a la página Acerca de</a></li>
+		<li><a href="acarete_es">Go to the edition / Ir a la edición</a></li>
+		</ul>
+	</div>
+<h2>Editorial principles / Principios editoriales</h2>
+
+<div class="multiling"> 
+
+<div lang="en" class="left">
+<h3>English</h3>
+<p lang="en">Our bilingual digital edition aims to bring the text of the "Description of Buenos Aires" of Acarete du Biscay closer 
+	to modern readers for that we offer a modernized text, where we regularize the archaic spelling
+	and we correct the errors of the originals, in parallel with the facsimile reproduction of the pages of our sources.
+	<!-- (you can download the full texts of the sources in English and Spanish on the <a>resources</a> page). -->
+	The modernized text was edited using TEI (<a href="https://tei-c.org/" target="blank">Text Encoding Initiative</a>)
+	using the following elements:</p>
+<ul>
+	<li><a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html" target="blank"><code>pb</code></a>: 
+		We mark the beginning of the pages of our source documents.
+		In our edition we maintain this division, and the text of each page appears followed by the
+		Fascimilar reproduction of the same in the printed source. Also, we add the number of page with the  attribute <code>@n</code></li>
+		<li> <a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-graphic.html" target="blank"><code>graphic</code></a>: We use this element in order to include the fascimilar reproduction of the
+			source documents, since the <a href="https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_simplePrint.doc.html" target="blank">
+			<i>Simple Print</i></a> schema does not include the 
+			<a href="https://tei-c.org/release/doc/tei-p5-doc/en//html/ref-facsimile.html" target="blank"><code>facsimile</code></a> element,
+			that would be more appropriate for this purpose.</li>
+			<li> <a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html" target="blank"><code>lb</code></a>: 
+				We mark the beginning of each line of text in the source document. But, in order not to hinder
+			reading, this characteristic does not influence the display of the text of our edition. </li>
+			<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html" target="blank"><code>head</code></a>: Chapter title.</li>
+			<li> <a href="https://tei-c.org/release//doc/tei-p5-doc/es/html/ref-p.html" target="blank"><code>p</code></a>: 
+				The paragraph separation of the printed source is maintained </li>
+			<li> <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-reg.html" target="blank"><code>reg</code></a>: 
+				The archaic spelling usages of the source documents were modernized and marked with
+			this element, without offering the original alternative in the text (since the reader has the facsimile reproduction
+			to consult it). To indicate the regularizations we use the color
+			<span class = "green">green</span>.</li>
+			<li> <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-corr.html" target="blank"><code>corr</code></a>: 
+				The misprints of the source documents were corrected and marked with this element,
+			without offer the original alternative in the text (since the reader has the facsimile reproduction to consult
+			the original reading). To indicate the corrections we use the color <span class = "red">red</span>. </li>
+			<!-- <li> <code>note</code>: We keep the translator's notes from the printed source, as well as the numbering format, 
+				the call to the notes were marked with <code> ref </code>. </li> -->
+			<li> <a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-name.html" target="blank"><code>name</code></a>: 
+				We indicate the names in the text with this element, which we define with the <code>@type</code> attributes, 
+				to indicate the type of entity to which that name refers (people, places, countries or organizations); and <code> @ref </code> 
+				to assign it an identifier using the permanent link provided by <a href=https://viaf.org/ target="blank"> VIAF </a>. </li>
+			<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-foreign.html" target="blank"><code>foreign</code></a>: 
+				We use this element to indicate words in a language other than that of the translation </li>
+			
+			
+</ul>
+</div>
+
+<div lang="es" class="right"> 
+<h3>Español</h3>
+<p lang="es">
+Nuestra edición digital bilingüe tiene como objetivo acercar a lxs lectorxs modernxs el texto de la “Descripción de Buenos Aires” 
+de Acarete du Biscay, para eso ofrecemos el texto modernizado, en donde regularizamos los usos ortográficos arcaicos
+y corregimos los errores de los originales, en paralelo a la reproducción facsimilar de las páginas de nuestras fuentes. 
+<!-- (puede descargar los textos completos de las fuentes en inglés y en castellano en la página de <a>recursos</a>).  -->
+El texto modernizado fue editado mediante el uso de la codificación TEI (<a href="https://tei-c.org/" target="blank">Text Encoding Initiative</a>) 
+utilizando los siguientes elementos:
+</p>
+<ul>
+	<li><a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html" target="blank"><code>pb</code></a>: 
+		Señalamos el inicio de las páginas de nuestros documentos fuente. 
+	En nuestra edición mantenemos esta división, y el texto de cada página aparece seguido de la 
+	reproducción fascimilar de la misma en la fuente impresa. También se añade el número de página de la revista mediante el atributo <code>@n</code></li>
+	<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-graphic.html" target="blank"><code>graphic</code></a>: 
+		Utilizamos este elemento con el fin de incluir la reproducción fascimilar de los 
+	documentos fuente, ya que el esquema de 
+	<a href="https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_simplePrint.doc.html" target="blank"><i>Simple Print</i></a> 
+	no incluye el elemento <a href="https://tei-c.org/release/doc/tei-p5-doc/en//html/ref-facsimile.html" target="blank"><code>facsimile</code></a> , 
+	que resultaría más apropiada para este fin.</li>
+	<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html" target="blank"><code>lb</code></a>: 
+		Marcamos el inicio de cada línea de texto del documento fuente. Con el fin de no entorpecer 
+	la lectura, esta característica no influye en la visualización del texto de nuestra edición</li>
+	<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html" target="blank"><code>head</code></a>: 
+		Título del capítulo</li>
+	<li><a href="https://tei-c.org/release//doc/tei-p5-doc/es/html/ref-p.html" target="blank"><code>p</code></a>: 
+		Se mantiene la separación en párrafos de la fuente impresa</li>
+	<li><a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-reg.html" target="blank"><code>reg</code></a>: 
+		Los usos ortográficos arcaicos de los documentos fuente fueron modernizados y marcados con 
+	este elemento, sin ofrecen la alternativa original en el texto (ya que el lector dispone de la reproducción facsimilar 
+	para consultar la lectura original). Para señalar las regularizaciones utilizamos el color 
+	<span class="green">verde</span>.</li>
+	<li><a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-corr.html" target="blank"><code>corr</code></a>: 
+		Los errores de imprenta de los documentos fuente fueron corregidos y marcados con esta elemento, 
+	sin ofrecen la alternativa original en el texto (ya que el lector dispone de la reproducción facsimilar para consultar 
+	la lectura original). Para señalar las correcciones utilizamos el color <span class="red">rojo</span>.</li>
+	<li><a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html" target="blank"><code>note</code></a>:
+		 Mantenemos las notas del traductor de la fuente impresa, así como el formato de numeración, la llamada a las notas 
+		fueron marcadas con el elemento 
+		<a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ref.html" target="blank"><code>ref</code></a>.</li>
+	<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-name.html" target="blank"><code>name</code></a>: 
+		Señalamos los nombres en el texto con este elemento, al que definimos con los atributos <code>@type </code>, 
+		para indicar el tipo de entidad a la que refiere ese nombre (personas, lugares, países u organizaciones); y <code>@ref </code> 
+		para asignarle un identificador mediante el enlace permanente proporcionado por <a href=https://viaf.org/ target=”blank”>VIAF</a>.</li>
+	<li><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-foreign.html" target="blank"><code>foreign</code></a>: 
+		Utilizamos este elemento para señalar palabras en un idioma diferente del de la traducción</li>
+
+</ul>	
+</div>
+</div>
+
