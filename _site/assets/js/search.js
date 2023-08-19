@@ -12,10 +12,10 @@ var index = elasticlunr(function () {
 // Add to this index the proper metadata from the Jekyll content
 
 index.addDoc({
-  title: "La familia Podestá",
+  title: "La muestra",
   author: null,
   layout: "page",
-  content: "\n\n\n\nFAMILIA\n\n\n",
+  content: "\n\n\nLa muestra... [TITULO]\n\n\n\n\n\n    La obra Juan Moreira (1884), del escritor Eduardo Gutiérrez marca el inicio del campo \n    teatral argentino porque permite la sistematización de una poética textual de \n    temática gaucha, la visibilización de una poética actoral popular, la invención \n    de un público, el surgimiento de la crítica y la aparición del teatro como práctica social. \n    A partir de su éxito, la arena del circo -que era donde se representaban estas obras \n    luego de los espectáculos circenses-, se llena de nuevos gauchos: Juan Cuello, \n    Julián Giménez, Martín Fierro, Calandria, entre otros, quienes poco a poco abandonan \n    el picadero para pasar a las salas de los teatros de la ciudad de Buenos Aires \n    tanto como a los del interior durante las giras nacionales. Además, con el estreno \n    de Juan Moreira se produce un acuerdo estético, social y político que concentra \n    los paradigmas principales que constituyen la estructura de sentimiento de la \n    Argentina de fines del siglo XIX en su proceso de enculturación, posterior al \n    surgimiento del Estado Moderno argentino.\n\n\n    Esta exposición virtual se centra en el estudio de los textos teatrales, \n    las puestas en escena y los autores de diecinueve obras teatrales estrenadas y \n    representadas por la familia fundante del teatro argentino: Los Podestá, a partir de \n    las compañías formadas por los hermanos José, Gerónimo y Pablo, durante el periodo 1884-1910. \n    Entre los autores de las piezas seleccionadas, que se hallan en formato manuscritos en el \n    Instituto Nacional de Estudios Teatrales y que a partir de esta muestra se posibilita \n    su exhibición en formato digital, se destacan Eduardo Gutiérrez, José Podestá, \n    Abdón Aróstegui, Martín Coronado, Ezequiel Soria, Roberto Cayol, Florencio Sánchez, \n    José Lenchantin y Luis Armando Vasallo. Sus obras no sólo revelan los cambios, rupturas y \n    continuidades al interior de las compañías para las cuales escribieron, sino que \n    también revelan el estado de situación del sistema teatral desde sus inicios hasta el \n    Primer Centenario de la Nación: que abarca desde la poética gauchesca teatral hasta el \n    sainete. \n\n\n",
   id: 0
 });
 index.addDoc({
@@ -105,10 +105,10 @@ index.addDoc({
 
 // Builds reference data (maybe not necessary for us, to check)
 var store = [{
-  "title": "La familia Podestá",
+  "title": "La muestra",
   "author": null,
   "layout": "page",
-  "link": "/_pages/1_familiaPodesta/",
+  "link": "/_pages/1_LaMuestra/",
 }
 ,{
   "title": "Las compañías teatrales",
