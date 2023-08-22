@@ -78,7 +78,7 @@ index.addDoc({
   title: "Inicio",
   author: null,
   layout: "default",
-  content: "\n\n\n\n\n\n    1\n    2\n    3\n    4\n",
+  content: "\n\n\n\n\n",
   id: 9
 });
 index.addDoc({
