@@ -776,6 +776,20 @@ li.prose-indent {
   color: #8f5536;
 }
 
+/* COSAS NUEVAS */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 600px));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.item {
+  background: black;
+  color: white;
+  padding: 1em;
+}
+
 .highlight .hll {
   background-color: #ffc;
 }
